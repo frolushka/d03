@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
 
 	public static GameManager instance;
 	
-	private int playerHp = 20;
+	[SerializeField] private int playerHp = 20;
 	public int PlayerHp
 	{
 		get => playerHp;
@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
 	}
 	public event System.Action<int> onPlayerHpChange;
 	
-	private int score = 0;
+	[SerializeField] private int score = 0;
 	public int Score
 	{
 		get => score;
@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
 	}
 	public event System.Action<int> onScoreChange;
 
-	private int playerEnergy = 300;
+	[SerializeField] private int playerEnergy = 300;
 	public int PlayerEnergy
 	{
 		get => playerEnergy;

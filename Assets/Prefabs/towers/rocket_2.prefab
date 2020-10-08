@@ -155,7 +155,7 @@ GameObject:
   - component: {fileID: 412662}
   - component: {fileID: 21252904}
   - component: {fileID: 5843288}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: emptyA_0
   m_TagString: tower
   m_Icon: {fileID: 0}

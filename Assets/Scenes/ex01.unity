@@ -416,6 +416,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7848185048284758505}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &425631363 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7848185049006241723, guid: 1e6d26eb1666b48278dfba72b819ff9d,
+    type: 3}
+  m_PrefabInstance: {fileID: 7848185048284758505}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 546aa185594fe44c9807729f7715668c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &861109097
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,6 +512,66 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 1
+          m_CallState: 2
+  - keyCode: 113
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1584278824}
+          m_MethodName: BeginDrag
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - keyCode: 119
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 425631363}
+          m_MethodName: BeginDrag
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - keyCode: 101
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2121689981}
+          m_MethodName: BeginDrag
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - keyCode: 114
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1826407976}
+          m_MethodName: BeginDrag
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
           m_CallState: 2
 --- !u!114 &861109101
 MonoBehaviour:
@@ -597,6 +669,42 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7848185048284758505}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1584278824 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6332449213108089684, guid: 1e6d26eb1666b48278dfba72b819ff9d,
+    type: 3}
+  m_PrefabInstance: {fileID: 7848185048284758505}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 546aa185594fe44c9807729f7715668c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1826407976 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7930778165540886925, guid: 1e6d26eb1666b48278dfba72b819ff9d,
+    type: 3}
+  m_PrefabInstance: {fileID: 7848185048284758505}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50339bbba865b45c0bdff575e6391b2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2121689981 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6332449212695035185, guid: 1e6d26eb1666b48278dfba72b819ff9d,
+    type: 3}
+  m_PrefabInstance: {fileID: 7848185048284758505}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 546aa185594fe44c9807729f7715668c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7848185048284758505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -617,7 +725,7 @@ PrefabInstance:
     - target: {fileID: 7848185047464927740, guid: 1e6d26eb1666b48278dfba72b819ff9d,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: ex00
+      value: ex03
       objectReference: {fileID: 0}
     - target: {fileID: 7848185047756482559, guid: 1e6d26eb1666b48278dfba72b819ff9d,
         type: 3}

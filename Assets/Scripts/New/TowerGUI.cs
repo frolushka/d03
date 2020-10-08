@@ -70,10 +70,11 @@ public class TowerGUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         }
     }
 
-    private void BeginDrag()
+    public void BeginDrag()
     {
-        if (!buyAvailable)
+        if (!buyAvailable || GUIManager.onDrag)
             return;
+        GUIManager.onDrag = true;
         onDrag = true;
     }
 
@@ -81,6 +82,7 @@ public class TowerGUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         if (!buyAvailable)
             return;
+        GUIManager.onDrag = false;
         onDrag = false;
         rectTransform.position = defaultPosition;
         onTowerDragFinished?.Invoke(towerPrefab, screenPosition);

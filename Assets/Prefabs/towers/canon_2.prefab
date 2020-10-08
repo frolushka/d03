@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 414252}
   - component: {fileID: 21295684}
   - component: {fileID: 5839082}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: turret_tile
   m_TagString: tower
   m_Icon: {fileID: 0}
